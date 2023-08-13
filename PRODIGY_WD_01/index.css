@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff9900;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.internship {
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.about-head {
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.about-para {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+
+.footer-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.footer-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 20px;
+}
